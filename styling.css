@@ -1,0 +1,166 @@
+p   {
+    color:rgb(255, 255, 255);font-size: 100%;
+    font-family: Helvetica;
+}
+.linkButton {
+  background-color: rgb(156, 0, 0);
+  color:aliceblue;
+  font-family: Helvetica;
+  font-weight: 700;
+  margin: 5px 5px;
+  padding: 10px 10px;
+  border: 2px solid transparent;
+  text-decoration: none;
+}
+.linkButton:hover {
+  background-color: #670000;
+  color:rgb(255, 255, 255);
+  font-family: Helvetica;
+  font-weight: 700;
+  padding: 10px;
+  border: 2px solid red;
+  text-decoration: none;
+}
+/* a:link, a:visited {
+    background-color: #1d1b1b70;
+    border: 0px solid black;
+    color: white;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+} */
+  
+a:hover, a:active {
+    background-color: rgb(144, 0, 0);
+    padding: 0px 0px;
+}
+
+body  {
+    /*background-image:url(opium_cathedral.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    background-color: #000000;
+ 
+}
+h1 {
+  color: whitesmoke;
+}
+h2    {
+    color:white;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 250%;
+    font-kerning: normal;    
+}
+h3    {
+  color:white;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 30px;
+  font-kerning: normal;    
+}
+pre {
+  color: aliceblue;
+  font-family: Helvetica;
+  font-size: 130%;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.5;
+}
+mark  {
+  background-color: rgb(255, 99, 151);
+  color: aliceblue;
+  padding-inline-end: 5px;
+  padding-inline-start: 5px;
+  
+}
+* {
+  box-sizing: border-box;
+  /* padding: 1px;
+  border: 5px solid magenta; */
+}
+
+aside {
+  float: left;
+  padding: 20px;
+  width: 60%;
+  background-color: transparent;
+  text-align: left;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 40%;
+  background-color: transparent;
+  text-align: left;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 750px) {
+  article {
+    width: 100%;
+    height: auto;
+  }
+}
+button {
+  background-color: rgb(156, 0, 0);
+  color:aliceblue;
+  font-family: Helvetica;
+  font-weight: 700;
+  padding: 10px;
+  border: 2px solid transparent;
+  margin-top: 30px;
+}
+button:hover {
+  background-color: #670000;
+  color:rgb(255, 255, 255);
+  font-family: Helvetica;
+  font-weight: 700;
+  padding: 10px;
+  border: 2px solid red;
+}
+hr {
+  border:1px solid rgb(156, 0, 0);
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(18, 16, 16);
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: Helvetica;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(156, 0, 0);}
+
+ul.topnav li a.active {background-color: #670000;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+h1:hover {
+  background-color: rgb(255, 0, 0);
+}
+::selection {
+  background: red;
+}
